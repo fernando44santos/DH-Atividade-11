@@ -11,7 +11,7 @@ main {
     align-items: center;
     margin-top: 35px;
     margin-bottom: 35px;
-    overflow: auto;
+    
 
 }
 
@@ -20,6 +20,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .card {
@@ -37,7 +38,7 @@ main {
 }
 
 .bgp {
-    background-image: url(/img/delivery.jpg);
+    background-image: url(../img/delivery.jpg);
 }
 
 header {
