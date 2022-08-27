@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    overflow: auto;
+
+}
+
+.card-container {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+
+    width: 490px;
+    height: 350px;
+    background: white;
+
+
+}
+
+.betewn {
+
+    margin-left: 1%;
+}
+
+.bgp {
+    background-image: url(/img/delivery.jpg);
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #222222;
+    box-shadow: 0px 4px 4px 0px rgb(82, 81, 81);
+}
+
+.logo {
+    position: absolute;
+    right: 82%;
+    top: 10px;
+
+}
+
+.logo2 {
+    position: absolute;
+    left: 82%;
+    top: 30%;
+
+}
+
+.promoção {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #FC200C;
+}
+
+span {
+    color: #f3f3f3;
+}
+
+.alinhar {
+    height: 10em;
+    position: relative
+}
+
+.menu {
+    position: absolute;
+    top: 10%;
+    left: 150px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #FC200C;
+}
+
+.top {
+    position: absolute;
+    width: auto;
+    height: 23px;
+    left: 755px;
+    top: 247px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #222222;
+}
+.list{
+    position: absolute;
+    width: auto;
+    height: 23px;
+    left: 715px;
+    top: 280px;
+    line-height: 35px;
+    font-family: 'Roboto';
+}
+.pizza{
+    position: absolute;
+    left: 1005px;
+    top: 267px;
+}
+.margin {
+    width: auto;
+    height: 19px;
+    margin: 10px;
+}
+
+.divhearder {
+    display: flex;
+
+    position: absolute;
+    left: 78%;
+    top: 25px;
+}
+
+.divfooter {
+    position: absolute;
+    left: calc(39% - 74px/2 - 455px);
+
+}
+
+.word {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    color: #f3f3f3;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    background-color: #222222;
+}
